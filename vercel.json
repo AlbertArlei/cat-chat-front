@@ -1,9 +1,10 @@
 {
-    "version": 2,
-    "routes": [
-        {
-            "src": "./src(.*)",
-            "dest": "./router.ts"
-        }
-    ]
+  "version": 2,
+  "routes": [
+    {
+      "src": "./src(.*)",
+      "dest": "./router.ts"
+    }
+  ],
+  "buildCommand": "npm run dev"
 }
