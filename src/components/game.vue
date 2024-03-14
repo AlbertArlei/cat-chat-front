@@ -35,7 +35,7 @@ export default {
     data() {
         return {
             room: "",
-            socket: io('https://cat-chat-back-d5rpoz8gn-albert-arleis-projects.vercel.app'),
+            socket: io('https://cat-chat-backend.vercel.app/'),
             socketId: "",
             playerData: {} as IPlayerData,
             enemyData: {} as IPlayerData,
