@@ -5,6 +5,5 @@
       "src": "./src(.*)",
       "dest": "./router.ts"
     }
-  ],
-  "buildCommand": "dev"
+  ]
 }
