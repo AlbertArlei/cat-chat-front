@@ -15,8 +15,7 @@
 
 <script lang="ts">
 import io from "socket.io-client";
-const sf = await fetch('https://cat-chat-backend.vercel.app/', {method: "get"});
-console.log(sf)
+
 interface IPlayerData {
     id: string;
     x: number;
