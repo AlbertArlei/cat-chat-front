@@ -6,5 +6,5 @@
       "dest": "./router.ts"
     }
   ],
-  "buildCommand": "npm run dev"
+  "buildCommand": "dev"
 }
