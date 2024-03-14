@@ -322,10 +322,12 @@ export default {
 
         }
     },
-    mounted() {
+    async mounted() {
         this.getScreenSize();
         this.socketInit();
         this.keyboardInputs();
+        const sf = await fetch('https://cat-chat-backend.vercel.app/', {method: "get"});
+console.log(sf)
     },
 };
 </script>
